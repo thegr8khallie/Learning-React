@@ -1,0 +1,40 @@
+.fruit {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.fruit:nth-child(even) {
+  background-color: rgb(190, 190, 190);
+}
+.fruit:nth-child(odd) {
+  background-color: grey;
+}
+form {
+  display: none;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+input[type="text"] {
+  border-bottom: 3px solid;
+}
+input[type="text"]:focus {
+  outline: none;
+  border-bottom-color: blue;
+}
+.add-btn {
+  width: 100%;
+  font-size: 20px;
+  padding: 19px;
+  border: 3px dashed rgb(87, 87, 87);
+}
+.show-form {
+  display: block;
+}
+.hide-add-btn {
+  display: none;
+}
