@@ -7,7 +7,7 @@ const Paragraph = (props) => {
   const addHandler = (e) => {
     e.preventDefault();
     if (!newFruit) {
-      console.log("Add a fruit bossu");
+      console.log(" Please Add a fruit");
     } else {
       props.submitHandler(newFruit);
       setNewFruit("");
